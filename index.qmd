@@ -5,7 +5,7 @@ format: html
 
 # Welcome
 
-I’m **Ethan Saline**, a driven data scientist. I have been passionate about turning complex data into actionable insights since I was a four year old child.  
+I’m **Ethan Saline**, a driven data scientist. I have been passionate about turning complex data into actionable insights since I was a four year old child. 
 
 I’m currently pursuing my **Bachelor of Applied Science in Data Science** at **Brigham Young University – Idaho** with a **3.94 GPA**.  
 
