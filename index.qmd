@@ -1,10 +1,56 @@
 ---
-title: "about me"
-subtitle: "my data science portfolio"
-# use quarto markdown to 
+title: "Ethan Saline Portfolio"
 ---
 
-# Title 1 Header
-## Title 2 Header
+# Welcome
 
-[MarkDown Basics](https://quarto.org/docs/authoring/markdown-basics.html#links-images)
+I’m **Ethan Saline**, a driven data scientist. I have been passionate about turning complex data into actionable insights since I was a four year old child.  
+
+I’m currently pursuing my **Bachelor of Applied Science in Data Science** at **Brigham Young University – Idaho** with a **3.94 GPA**.  
+
+---
+
+## 📄 Resume
+
+You can view my resume here:  
+[**Download/View Resume**](Resume.pdf)
+
+---
+
+## 💼 LinkedIn
+
+Connect with me on LinkedIn:  
+[linkedin.com/in/ethan-saline](https://linkedin.com/in/ethan-saline)
+
+---
+
+## 🌐 Contact
+
+- **Email:** [e.s.w.saline@gmail.com](mailto:e.s.w.saline@gmail.com)  
+
+---
+
+## 🛠 Technical Skills
+
+- **Programming:** Python, R, SQL  
+- **Machine Learning:** Supervised & Unsupervised Learning, CNNs, Linear/Logistic Regression  
+- **Statistics & Data Analysis:** Statistical Modeling, Time Series Forecasting, Feature Engineering, Data Visualization  
+- **Tools:** Jupyter, Git, FRED, Research Data Pipelines  
+
+---
+
+## 📚 Education
+
+**Brigham Young University – Idaho**  
+*BAS in Data Science* | Minor: Statistics  
+**April 2023 – December 2026**  
+**GPA:** 3.94
+
+---
+
+## 🌟 Profile Statement
+
+*You're gonna want me on your team!*  
+Driven data scientist with a strong work ethic and passion for turning complex data into actionable insights.
+
+---
