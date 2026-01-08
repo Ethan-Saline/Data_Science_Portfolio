@@ -62,6 +62,3 @@ format:
     toc: true
     code-fold: true
     self-contained: false
-
-resource_files:
-  - "proj_files/**"
