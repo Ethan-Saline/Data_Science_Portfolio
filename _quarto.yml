@@ -3,26 +3,50 @@ project:
   output-dir: docs
 
 website:
-  title: "Ethan Saline's Portfolio"
+  title: "Ethan Saline"
 
-  navbar:
-    background: light
-    search: true
-    right:
-      - text: "Home"
-        file: index.qmd
-      - text: "My Resume"
-        file: resume.qmd
-      - text: "Machine Learning"
-        file: machine_learning.qmd
-      - text: "Time Series"
-        file: time_series.qmd
-      - text: "Statistical Analysis"
-        file: statistical_analysis.qmd
-      - text: "Bioinformatics"
-        file: bioinformatics.qmd
-      - text: "Storytelling"
-        file: storytelling.qmd
+navbar:
+  background: light
+  search: true
+  right:
+    - text: "Home"
+      file: index.qmd
+    - text: "My Resume"
+      file: resume.qmd
+    - text: "Machine Learning"
+      menu:
+        - text: "Overview"
+          file: machine_learning.qmd
+        - text: "Project 1"
+          file: project1.qmd
+
+    - text: "Time Series"
+      menu:
+        - text: "Overview"
+          file: time_series.qmd
+        - text: "Project 1"
+          file: project1.qmd
+          
+    - text: "Statistical Analysis"
+      menu:
+        - text: "Overview"
+          file: statistical_analysis.qmd
+        - text: "Project 1"
+          file: project1.qmd
+          
+    - text: "Bioinformatics"
+      menu:
+        - text: "Overview"
+          file: bioinformatics.qmd
+        - text: "Project 1"
+          file: project1.qmd
+          
+    - text: "Storytelling"
+      menu:
+        - text: "Overview"
+          file: storytelling.qmd
+        - text: "Project 1"
+          file: project1.qmd
 
   page-footer:
     border: true
