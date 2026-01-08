@@ -5,9 +5,8 @@ project:
 website:
   title: "<span style='font-family: Arial Black, Impact, sans-serif;
                      font-weight: 600;
-                     font-size: 20px;'>
-          Ethan Saline's
-            Portfolio
+                     font-size: 25px;'>
+          Ethan Saline
         </span>"
 
   navbar:
