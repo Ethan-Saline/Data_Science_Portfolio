@@ -1,5 +1,6 @@
 ---
 title: "Ethan Saline's Resume"
+format: html
 ---
 
 **📧 Email:** [e.s.w.saline@gmail.com](mailto:e.s.w.saline@gmail.com)  
