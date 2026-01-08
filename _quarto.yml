@@ -3,50 +3,52 @@ project:
   output-dir: docs
 
 website:
-  title: "Ethan Saline"
+  title: "<span style='font-family: Arial Black, Impact, sans-serif;
+                     font-weight: 600;
+                     font-size: 32px;'>
+          Ethan Saline Portfolio
+        </span>"
 
   navbar:
     background: light
     search: true
-    right:
-      - text: "Home"
-        file: index.qmd
-      - text: "My Resume"
-        file: resume.qmd
+    fixed: top
+    left:
       - text: "Machine Learning"
         menu:
           - text: "Overview"
             file: machine_learning.qmd
           - text: "Project 1"
             file: machine_learning/project1.qmd
-
       - text: "Time Series"
         menu:
           - text: "Overview"
             file: time_series.qmd
           - text: "Project 1"
             file: time_series/project1.qmd
-            
       - text: "Statistical Analysis"
         menu:
           - text: "Overview"
             file: statistical_analysis.qmd
           - text: "Project 1"
             file: statistical_analysis/project1.qmd
-            
       - text: "Bioinformatics"
         menu:
           - text: "Overview"
             file: bioinformatics.qmd
           - text: "Project 1"
             file: bioinformatics/project1.qmd
-            
       - text: "Storytelling"
         menu:
           - text: "Overview"
             file: storytelling.qmd
           - text: "Project 1"
             file: storytelling/project1.qmd
+    right:
+      - text: "Home"
+        file: index.qmd
+      - text: "My Resume"
+        file: resume.qmd
 
   page-footer:
     border: true
@@ -60,3 +62,6 @@ format:
     toc: true
     code-fold: true
     self-contained: false
+
+resource_files:
+  - "proj_files/**"
