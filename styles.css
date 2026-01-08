@@ -60,21 +60,12 @@
   color: #f8f9fa !important;
 }
 
-/* Ensure dropdowns open on hover (optional) */
-.nav-item.dropdown:hover > .dropdown-menu {
-  display: block;
-}
-
-/* ============================= */
-/* Adjust caret color */
-/* ============================= */
+/* Caret color */
 .navbar-nav .dropdown-toggle::after {
   border-top: 0.4em solid #ffffff; /* white caret */
 }
 
-/* ============================= */
 /* Responsive Adjustments */
-/* ============================= */
 @media (max-width: 767px) {
   .navbar-nav .nav-item {
     margin-left: 0;
