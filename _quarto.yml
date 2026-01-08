@@ -14,9 +14,6 @@ website:
     search: true
     fixed: top
     left:
-      - text: "Home"
-        file: index.qmd
-        
       - text: "Resume"
         file: resume.qmd
         
