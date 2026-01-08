@@ -24,32 +24,44 @@ website:
         menu:
           - text: "Overview"
             file: machine_learning.qmd
-          - text: "Project 1"
-            file: machine_learning/project1.qmd
+          - text: "Covid Chest X-Rays CNN"
+            file: machine_learning/cnn.qmd
+          - text: "Shopping Cart Recomender"
+            file: machine_learning/recomend.qmd
+            
       - text: "Time Series"
         menu:
           - text: "Overview"
             file: time_series.qmd
-          - text: "Project 1"
-            file: time_series/project1.qmd
+          - text: "Consumer Loans Decomposition"
+            file: time_series/loans.qmd
+          - text: "Influenza-like Illness Decomposition"
+            file: time_series/flu.qmd
+          - text: "Retail Sales Forecasting"
+            file: time_series/retail.qmd
+          - text: "Hospital Admissions Forecast"
+            file: time_series/hospital.qmd            
+            
       - text: "Statistical Analysis"
         menu:
           - text: "Overview"
             file: statistical_analysis.qmd
-          - text: "Project 1"
-            file: statistical_analysis/project1.qmd
+          - text: "Cardiac Mortality"
+            file: statistical_analysis/cardiac.qmd
+            
       - text: "Bioinformatics"
         menu:
           - text: "Overview"
             file: bioinformatics.qmd
-          - text: "Project 1"
-            file: bioinformatics/project1.qmd
-      - text: "Storytelling"
+          - text: "Covid-19"
+            file: bioinformatics/covid.qmd
+            
+      - text: "Agentic AI"
         menu:
           - text: "Overview"
-            file: storytelling.qmd
-          - text: "Project 1"
-            file: storytelling/project1.qmd
+            file: agentic_ai.qmd
+          - text: "Senator Stock"
+            file: agentic_ai/senator.qmd
 
   page-footer:
     border: true
