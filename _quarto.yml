@@ -1,23 +1,13 @@
-project: 
+project:
   type: website
   output-dir: docs
 
 website:
   title: "Ethan Saline's Portfolio"
-  favicon: Images/favicon.png
-  back-to-top-navigation: true
-  repo-url: https://github.com/Ethan-Saline/Data_Science_Portfolio
-
-  page-footer: 
-    border: true
-    left: "Ethan Saline 2026©"
-    right: 
-      - icon: linkedin
-        href: Your_LinkedIn_URL
 
   navbar:
-    background: primary
-    search: true   
+    background: light
+    search: true
     right:
       - text: "Home"
         file: index.qmd
@@ -33,73 +23,16 @@ website:
         file: bioinformatics.qmd
       - text: "Storytelling"
         file: storytelling.qmd
-        
 
-  sidebar: 
-    - title: "Machine Learning"
-      style: "docked"
-      background: light
-      contents:
-        - text: "Machine Learning"
-          file: machine_learning.qmd
-        - text: "---"
-        - text: "Project 1"
-          file: machine_learning/project1.qmd
-        - text: "---"
+  page-footer:
+    border: true
+    left: "Ethan Saline © 2026"
 
-    - title: "Time Series"
-      style: "docked"
-      background: light
-      contents:
-        - text: "Time Series"
-          file: time_series.qmd
-        - text: "---"
-        - text: "Project 1"
-          file: time_series/project1.qmd
-        - text: "---"
-        
-    - title: "Statistical Analysis"
-      style: "docked"
-      background: light
-      contents:
-        - text: "Statistical Analysis"
-          file: statistical_analysis.qmd
-        - text: "---"
-        - text: "Project 1"
-          file: statistical_analysis/project1.qmd
-        - text: "---"
-
-    - title: "Bioinformatics"
-      style: "docked"
-      background: light
-      contents:
-        - text: "Bioinformatics"
-          file: bioinformatics.qmd
-        - text: "---"
-        - text: "Project 1"
-          file: bioinformatics/project1.qmd
-        - text: "---"
-      
-    - title: "Story Telling"
-      style: "docked"
-      background: light
-      contents:
-        - text: "Story Telling"
-          file: story_telling.qmd
-        - text: "---"
-        - text: "Project 1"
-          file: story_telling/project1.qmd
-        - text: "---"
-        
-format:  
+format:
   html:
-    theme: #see this link to customize the theme with css (https://quarto.org/docs/output-formats/html-themes.html#dark-mode)
-      light: flatly # more themes can be found [here](https://quarto.org/docs/output-formats/html-themes.html)
-      dark: darkly
-      #light: cosmo
-      #dark: [cosmo, theme-dark.scss]
+    theme: cerulean
+    highlight: tango
     css: styles.css
     toc: true
-
-
-
+    code-fold: true
+    self-contained: false
